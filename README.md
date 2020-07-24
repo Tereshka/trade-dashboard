@@ -1,24 +1,20 @@
-# trade-dashboard
+# Trade Dashboard [Live Demo](https://tereshka.github.io/trade-dashboard/)
+Vue.js application with OHLC chart and realtime price trade
 
-## Project setup
-```
-npm install
-```
+Data is loading from [CoinCap API 2.0](https://docs.coincap.io/?version=latest#intro)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Stack: Vue.js, Vuex, TradingVueJs (chart library), Element ui
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Build Setup
 
-### Lints and fixes files
-```
-npm run lint
-```
+```bash
+# install dependencies
+$ npm install
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# serve with hot reload at localhost:3000
+$ npm serve
+
+# build for deploying on github pages
+$ npm run build
+$ npm run deploy
+```
