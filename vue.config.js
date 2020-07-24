@@ -1,6 +1,8 @@
 module.exports = {
   lintOnSave: false,
-  publicPath: '/',
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/trade-dashboard/'
+    : '/',
   devServer: {
     disableHostCheck: true,
     host: 'localhost',
