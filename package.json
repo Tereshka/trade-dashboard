@@ -9,7 +9,7 @@
     "deploy": "push-dir --allow-unclean --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "core-js": "^3.6.5",
     "element-ui": "^2.13.2",
     "push-dir": "^0.4.1",
